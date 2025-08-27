@@ -59,5 +59,5 @@ export function computeStrictRootAndProofs(bio: any): { root: Buffer; proofs: In
 export function to0x(buffer: Buffer): string { return "0x" + buffer.toString("hex"); }
 export function merkleRootFromDataTopLevel(data: any): Buffer {
   return computeStrictRootAndProofs(data).root;
-}
+} 
 
