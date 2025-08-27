@@ -60,3 +60,4 @@ export function to0x(buffer: Buffer): string { return "0x" + buffer.toString("he
 export function merkleRootFromDataTopLevel(data: any): Buffer {
   return computeStrictRootAndProofs(data).root;
 }
+
