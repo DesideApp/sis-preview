@@ -1,0 +1,27 @@
+# Node / OS
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+dist/
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Tests/coverage (si añades luego)
+coverage/
+*.lcov
+.nyc_output/
+
+# Temporales
+*.tmp
+*.temp
+.cache/
+
+# Generados por este repo
+fixtures/sample_identity.root.txt
